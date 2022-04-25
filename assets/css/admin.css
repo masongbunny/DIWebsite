@@ -1,0 +1,409 @@
+.admin-wrapper {
+  display: flex;
+  height: 100%;
+  padding-top: 50px;
+  background: white;
+}
+
+.admin-wrapper .left-sidebar {
+  flex: 1;
+  height: 100%;
+  background: #e1e8eb;
+}
+
+.admin-wrapper .left-sidebar hr{
+  margin: 1px 0px;
+  border-style: dotted;
+}
+
+.admin-wrapper .left-sidebar ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.admin-wrapper .left-sidebar ul .first {
+  padding-top: 30px;
+}
+
+.admin-wrapper .left-sidebar ul li a {
+  text-align: left;
+  font-size: 12px;
+  padding: 8px 0px 5px 20px;
+  display: block;
+  color: #666;
+  font-weight: 500;
+}
+
+.admin-wrapper .left-sidebar ul li a:hover {
+  padding-left: 25px;
+  transition: all 0.3s;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.admin-wrapper .admin-content {
+  flex: 8;
+  height: 100%;
+  padding: 40px 20px 20px 20px;
+  overflow-y: scroll;
+}
+
+
+
+.admin-wrapper .admin-content .search{
+  padding: 15px 0px;
+  margin-left: 670px;
+  margin-top: -55px;
+  margin-bottom: 55px;
+  width: 25%;
+  height: 20px;
+}
+
+.admin-wrapper .admin-content label{
+  font-size: 13px;
+  padding-right: 5px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.admin-content .page-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  border-top: ridge;
+  border-bottom: ridge;
+  padding: 5px 0;
+  letter-spacing: 10px;
+}
+
+.admin-content .page-title1 {
+  margin-top: -30px;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  border-top: ridge;
+  border-bottom: ridge;
+  padding: 5px 0;
+  letter-spacing: 10px;
+}
+
+/*dotm*/
+.dotm-content {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  width: 100%;
+  height: 480px;
+}
+
+.dotm-content img{
+  width: 100%;
+  height: 450px;
+}
+
+.dotm-content .description{
+  position: absolute;
+  color: white;
+  bottom: 5%;
+  background-color: rgba(0,0,0,0.5);
+  padding: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.owl-theme .owl-controls{
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+/*//dotm*/
+.leave-head{
+  text-align: center!important;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 5px;
+  color: red;
+}
+
+.leave{
+  text-align: center!important;
+  font-size: 20px;
+  color: green;
+}
+
+.test{
+  width: 100%;
+}
+
+.img-show{
+  display: block;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+.img-show img{
+  position: relative;
+  height: 100vh;
+  width: 80%;
+  padding: 0 5%;
+}
+
+.announce-content h6{
+  border-top: ridge;
+  border-bottom: ridge;
+  padding: 20px 0 50px;
+  text-align: center;
+}
+
+.admin-content .note{
+  text-transform: uppercase;
+  color: red;
+  font-size: 13px;
+   margin-bottom: 0px;
+}
+
+.admin-content .sec-below{
+  padding-top: 40px;
+}
+
+.tracker-sorter{
+  padding-bottom: 20px;
+}
+
+.tracker-sorter .req-sort{
+  width: 30%;
+  margin: 0 15px 0 10px;
+}
+
+.excel{
+  margin-top: 20px;
+}
+
+.skills-bar{
+  width: 100%;
+  background: lightsteelblue;
+  border-radius: 10px;
+  padding: 15px 10px;
+  margin-bottom: 50px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+.skills-bar .bar{
+  margin: 20px 0;
+}
+
+.skills-bar .bar:first-child{
+  margin-top: 0;
+}
+
+.skills-bar .bar .info span{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.skills-bar .bar .progress-line{
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5),
+                    0px 1px rgba(255,255,255,0.8);
+}
+
+table {
+  table-layout: auto;
+  position: inherit;
+  width: 100%;
+  font-size: 13px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+}
+
+tr:hover {
+  background-color: lightsteelblue;
+  width: auto!fit-content;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #e1e8eb;
+  text-overflow: hidden;
+}
+
+td{
+  width: auto!important;
+}
+
+thead{
+  background-color: lightsteelblue!important;
+}
+
+.forms-container{
+  position: relative;
+  display: block;
+}
+
+.forms-container ul{
+  list-style: none;
+  text-align: left;
+}
+
+.forms-container ul li a:hover{
+  text-decoration: none!important;
+}
+
+.edit {
+  padding: 0 3px;
+  color: white;
+  border: solid 1px green;
+  background: green;
+  border-radius: 5px;
+}
+
+.edit:hover{
+  background: white;
+  text-decoration: none!important;
+  color: green;
+}
+
+.delete {
+  padding: 0 3px;
+  color: white;
+  border: solid 1px red;
+  background: red;
+  border-radius: 5px;
+}
+
+.delete:hover{
+  background: white;
+  text-decoration: none!important;
+  color: red;
+}
+
+.disable {
+  padding: 0 3px;
+  color: white;
+  border: solid 1px orange;
+  background: orange;
+  border-radius: 5px;
+}
+
+.disable:hover{
+  background: white;
+  text-decoration: none!important;
+  color: orange;
+  cursor: pointer;
+}
+
+.publish {
+  color: blue;
+}
+
+.edit:hover,
+.delete:hover,
+.publish:hover {
+  text-decoration: underline;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+.centralised{
+  margin:  10px auto;
+  width: 1000px;
+  text-align: center;
+}
+
+.txtarea{
+  min-height: 100px;
+  width: 600px;
+  margin:  10px auto;
+  padding: 10px;
+}
+
+.chathistory{
+  text-align: left;
+  height: 400px;
+  width: 600px;
+  margin:  10px auto;
+  padding: 10px;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  position: relative;
+  background: #f1f1f1;
+}
+
+@media only screen and (max-width: 1340px) {
+  .admin-wrapper .admin-content .button-group .search{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .test{
+    overflow-y: scroll;
+    overflow-x: scroll;
+  }
+
+@media only screen and (max-width: 934px) {
+  .admin-wrapper .admin-content .button-group .search{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .test{
+    overflow-y: scroll;
+    overflow-x: scroll;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .admin-wrapper .left-sidebar ul li a:hover {
+    padding-left: 8px;
+    transition: all 0.3s;
+  }
+  .admin-wrapper .admin-content .button-group a{
+    display: inline-block; 
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
+
+  .admin-wrapper .admin-content .button-group .search{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .admin-wrapper .left-sidebar ul li a {
+    font-size: 10px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  .admin-wrapper .admin-content {
+    padding: 40px 20px 20px;
+  }
+
+  .admin-content .page-title {
+    font-size: 24px;
+  }
+
+  .img-show img{
+    padding: 0 0;
+     width: 100%;
+  }
+  
+  .test{
+    overflow-y: scroll;
+    overflow-x: scroll;
+  }
+}
+

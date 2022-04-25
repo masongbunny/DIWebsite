@@ -1,0 +1,139 @@
+#footer{
+	background: #00428a;
+	padding: 0 0 30px 0;
+	color: #eee;
+	font-size: 14px;
+}
+
+#footer .footer-top{
+	background: #004a99;
+	padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info{
+	margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3{
+	font-size: 26px;
+	margin: 0 0 20px 0;
+	padding: 2px 0 2px 0;
+	line-height: 1; 
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: .5px;
+	text-transform: uppercase;
+}
+
+#footer .footer-top .footer-info p{
+	font-size: 15px;
+	line-height: 24px;
+	margin-bottom: 0;
+	font-family: "Monteserrat", sans-serif;
+	color: #ecf5ff
+}
+
+#footer .footer-top h4 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+#footer .footer-top h4::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	background-color: grey;
+	height: 2px;
+	box-sizing: border-box;
+	width: 75px;
+}
+
+#footer .footer-top .footer-links {
+	margin-bottom: 20px;
+}
+
+#footer .footer-top .footer-links ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#footer .footer-top .footer-links ul li {
+	padding: 8px 0;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+	padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+	color: #ecf5ff;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+	color: #74b5fc;
+	text-decoration: none;
+}
+
+#footer .footer-top .footer-contact {
+	margin-bottom: 20px;
+}
+
+#footer .footer-top .footer-contact p {
+	line-height: 30px;
+}
+
+#footer .footer-top .footer-contact hr {
+	width: 100%;
+	border-color: white;
+	height: 3px;
+}
+
+#footer .footer-top .footer-map {
+	margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-map .map {
+	margin-top: 10px;
+}
+
+#footer .copyright {
+	text-align: center;
+	padding-top: 30px;
+}
+
+#footer .social-links a{
+	margin-top: 25px;
+	font-size: 18px;
+	display: inline-block;
+	background: #007bff;
+	color: #fff;
+	line-height: 1;
+	padding: 8px 0;
+	margin-right: 4px;
+	border-radius: 50%;
+	text-align: center;
+	width: 35px;
+	height: 35px;
+	transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+	background: #0067d5;
+	color:#fff;
+}
+
+@media screen and (max-width: 991.98px){
+	#footer .copyright {
+		font-size: 9px;
+	}
+
+	#footer .footer-top .footer-contact p {
+	text-align: left;
+}
+}

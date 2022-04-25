@@ -1,0 +1,48 @@
+https://www.youtube.com/watch?v=7xjDgKMxiQo - CHAT PHP
+https://www.youtube.com/watch?v=9L_ru8w3zIc
+
+linear gradient: https://www.youtube.com/watch?v=1q6papqTEqI
+image hover effect: https://www.youtube.com/watch?v=nM-30MdKNc4
+Department of the Month Idea: https://www.youtube.com/watch?v=wYuQM7__D1M
+
+
+jQuery(function($){
+			$('#org_chart').click(function(){
+				var img = $(this).attr("src");
+				var appear_image = "<div id='appear_image_div' onClick='closeImage()'></div>"
+				appear_image = appear_image.concat("<div id='appear_image' src='"+img+"' />");
+				appear_image = appear_image.concat("<div id='close_image' onClick='closeImage()' src='close.png' />");
+				$('body').append(appear_image);
+			});
+		});
+		function closeImage(){
+			$('#appear_image_div').remove();
+			$('#appear_image').remove();
+			$('#close_image').remove();
+		}
+
+Who Makes Up Your Mosaic?
+
+My friend used to drink his coffee black because when he was in college this other student told him all about its benefits and he fell inlove with the idea so he got his taste buds used to it.
+He made sure to stay vegan because after going vegan with his ex and speaking to her a few months after they had broken up, and finding out she had given up, he made it a point to say that he did it for him and not because they both did it.
+He makes it a point to swing any can of sauce in a circular motion 'cause when he was nine he saw his dad do it once and he found out that it was the best way to get every last drop of the sauce.
+He cooks for three people even though he lives alone because his family taught him to cook for strangers who he dones't know might show up or because he might just be extra hungry.
+He makes sure to look at himself in the mirror when he's nude because when he was studying theater, his teacher told them how can they expect to ever use their bodies properly if they're afraid to look at every part of it, nonjudgmentally.
+
+Every person out there is a mosaic of everyone they've ever met.
+I think it's a beautiful idea that if you look closer into each and every single person, you could see every other person they've been influenced with in their life - for the good, the bad, the ugly, and all of it in between.
+
+
+I put dashes on my sevens and zeroes because that's how my eight grade teacher used to write.
+I say words like 'capeesh' and 'manjia' because that's what my Italian New Yorker Grandfather used to speak.
+I studied traditional German folk dancing for six years because a friend of a family friend wanted me to learn it.
+I love penguins because of a kid I met at summer camp wo was obsessed with them.
+I punch the ceiling of my car when I go through yellow lights because two of my friends from college used to do that all the time.
+I tried being vegan because this girl that I have a crush on in high school was vegan.
+I read psychology books because a guy I met from a shitposting group on Facebook got me into them.
+
+Human beings are collages, mosaics.
+If you zoom in far enough into a person, you'll see the little pieces of everyone who they've ever met - haphazardly stuck together and incorporated into a unique and beautiful piece of art.
+You are the living memory of every person who has mattered to you, even for a moment.
+
+Who makes up you own mosaic?

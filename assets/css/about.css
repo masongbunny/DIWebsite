@@ -1,0 +1,316 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.page-wrapper{
+	position: relative;
+}
+
+.home-banner{
+	border: solid 1px white;	
+}
+
+.home-banner .container .row{
+	width: inherit;
+}
+
+.home-banner .container .row .col-lg-8 .content h1{
+	color: green;
+	font-size: 50px;
+	font-weight: 600;
+	letter-spacing: 10px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+
+.home-banner .container .row .col-lg-8 .content p{
+	text-align: justify;
+	padding: 0 60px 0 30px;
+}
+
+.home-banner .container .row .col-lg-4{
+	margin-top: 200px;
+}
+
+.home-banner .container .row .col-lg-4 img{
+	position: inherit;
+	width: 120%;
+	height:120%;
+}
+
+/*team*/
+
+.team-cont{
+	margin-top: 7%;
+	border-bottom: ridge;
+}
+
+.team-cont .row{
+	margin-bottom: 80px; 
+}
+
+.team-left h1{
+	color: black;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	letter-spacing: 4px;
+	font-weight: 600;
+}
+
+.team-left p{
+	color: black;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 1.6;
+	text-align: justify;
+}
+
+.swiper-container {
+    width: 350px;
+    height: 350px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide h2{
+	color: #fff;
+	text-align: center;
+	background-color: green;
+	text-transform: uppercase;
+	font-size: 18px;
+	margin-top: 83%;
+	padding: 15px 0;
+	font-weight: 500;
+}
+
+.swiper-slide h2 span{
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.cutter{
+	margin-top: -50px;
+}
+
+/* MISSION VISION FUNCTIONS */
+.demo{
+	
+}
+
+.team-heading{
+	padding-top: 40px;
+	margin-bottom: 0;
+	text-align: center;
+	color: black;
+}
+
+.team-heading h1{
+	text-transform: uppercase;
+	padding-top: 30px;
+	font-weight: 600;
+}
+
+.team{
+	background: linear-gradient(to bottom,  #004a99 39%, rgba(109,187,217,1) 100%);
+	border-right: ridge;
+	border-top: ridge;
+	border-left: ridge;
+	text-align: center;
+	padding: 10px 30px 100px;
+	margin: 0 15px 100px;
+	position: relative;
+	margin-top: 50px;
+}
+
+.team h3{
+	color: white;
+	padding: 10px 0px;
+	font-weight: 600;
+	border-bottom: solid 2px green;
+}
+
+.team h4{
+	color: white;
+}
+
+.team .description-mission{
+	color: white;
+	padding-top: 20px;
+	font-size: 16px;
+	text-align: justify;
+	letter-spacing: 2;
+	line-height: 2;
+}
+
+.team .description{
+	color: white;
+	font-size: 16px;
+	text-align: justify;
+	letter-spacing: -1px;
+}
+
+.team .team-content{
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+
+.owl-theme .owl-controls{
+	margin: -80px 0px 50px 0px;
+}
+
+/* ORG CHART */
+.orgchart-section{
+	background: linear-gradient(to bottom,  rgba(232, 126, 4, 1) 39%, rgba(255, 203, 5, 1) 100%);
+	width: 100%;
+	justify-content: center;
+	text-align: center;
+	overflow: hidden;
+}
+.orgchart{
+	border-top: ridge;
+	border-top-width: 5px;
+	padding: 40px 0;
+}
+
+.orgchart h1{
+	font-weight: 600;
+	text-align: center;
+	color: white;
+}
+
+.chart{
+	position: relative;
+
+}
+
+.chart img{
+	width: 50%;
+}
+
+.contact{
+	padding-bottom: 30px;
+}
+
+.contact h3{
+	margin-top: 40px;
+	color: white;
+}
+
+
+/*-- LOGOS --*/
+.container-career{
+	position: relative;
+	bottom: 0;
+	background: #dfe9f3;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.custom-shape-divider-bottom-1620646504 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1620646504 svg {
+    position: relative;
+    display: block;
+    width: calc(101% + 1.3px);
+    height: 282px;
+}
+
+.custom-shape-divider-bottom-1620646504 .shape-fill {
+    fill: #7489A1;
+}
+
+.container-career .logos{
+	padding: 100px;
+	display: inline-block;
+	margin-bottom: 250px;
+}
+
+.container-career .logos a{
+	padding: 30px;
+}
+
+.container-career .logos img{
+	height: 100px;
+	width: 100px;
+}
+
+.container-career .logos img:hover{
+	z-index: 1;
+	transform: scale(1.25);
+}
+
+.stylecont{
+	display: block;
+	 position: relative;
+	 top: 0px;
+	 height: 145px;
+	 background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1366 245" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(47, 73, 94, 1)" d="M 0 101 L 694 110 L 694 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(47, 73, 94, 1)" d="M 693 110 L 1366 124 L 1366 0 L 693 0 Z" stroke-width="0"></path> </svg>');
+	 background-size: cover;
+	 background-repeat: no-repeat;
+}
+
+@media (max-width:1365px) {
+ ..stylecont {
+   background-size: contain;
+ }
+}
+@media screen and (max-width: 991.98px){
+	.home-banner .container .row{
+		margin-top: 70px;
+	}
+
+	.home-banner .container .row .col-lg-8 .content h1{
+		font-size: 40px;
+		font-weight: 600;
+		letter-spacing: 7px;
+		padding-bottom: 0px;
+		padding-left: 20px;
+
+	}
+
+	.home-banner .container .row .col-lg-8 .content p{
+		padding: 0 0px 0 0;
+		padding-left: 20px;
+	}
+
+	.home-banner .container .row .col-lg-4{
+		width: 60%;
+		margin-top: 20px;
+		right: 0;
+	}
+
+	.home-banner .container .row .col-lg-4 img{
+		position: inherit;
+		width: 40%;
+		height:40%;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+
+	.home-banner .container .row .col-lg-8 .content h1{
+		font-size: 35px;
+		font-weight: 600;
+		letter-spacing: 10px;
+	}
+
+	.chart img{
+		width: 100%;
+	}
+}
+

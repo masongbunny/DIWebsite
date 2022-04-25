@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+body, input{
+	font-family: 'Poppins', sans-serif;
+}
+.navbar{
+	z-index: 100000;
+	min-height: 50px!important;
+	background-color: #343A40 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: rgba(255,255,255,1);
+	padding: 0 15px;
+}
+
+.dropdown-item{
+	overflow: visible;
+}
+
+@media screen and (max-width: 600px){
+
+	.navbar .navbar-brand{
+		font-size: 15px;
+	}
+
+}

@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.post-slider {
+  position: relative;
+}
+
+.post-slider .slider-title {
+   text-decoration: none!important;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 10px;
+  padding: 100px 0 60px 0; 
+
+}
+
+
+.container .row .sample h3{
+	border-bottom: ridge;
+	padding: 10px 0px 20px 0px;
+	color: green;
+}
+
+.container .row .sample .content{
+	border-top: solid 1px red;
+	padding-top: 20px;
+}
+
+.content ul li{
+	left: 0;
+	padding-top: 3px;
+	list-style: none;
+}
+
+.cvsudformslink{
+	font-weight: 600;
+	padding: 30px 0px;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 991.98px){
+	.jumbotron{
+		height: 100px;
+	}
+	.container.header{
+		font-size: 15px;
+		margin-top: -30px;
+	}
+}
+
